@@ -1,0 +1,27 @@
+.card-group{
+  margin-top: 10px;
+   
+
+}
+.card-title{
+    border-color: black;
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    background-color:#FAD2E1 ;
+    color: grey;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+
+.card-subtitle{
+    font-weight: bolder;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
