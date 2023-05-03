@@ -36,7 +36,7 @@ function Login() {
 					<button className="loginButton">Login</button>
 					<p className="registerLing">
 						Not Registered?
-						<a classname="registerLink" href="url">
+						<a classname="registerLink" href="/register">
 							Create an Account.
 						</a>
 					</p>
