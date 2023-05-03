@@ -12,6 +12,7 @@ import {
 } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/homePage.css';
+import AboutPage from '../Components/About';
 function HomePage() {
 	return (
 		<CardGroup>
@@ -24,7 +25,9 @@ function HomePage() {
 						elit cursus, pellentesque dolor sed, fringilla augue. Donec bibendum
 						nibh et auctor eleifend.
 					</CardText>
-					<Button>About</Button>
+					<Link to="/about">
+						<Button>About</Button>
+					</Link>
 				</CardBody>
 			</Card>
 			<Card>
@@ -36,7 +39,9 @@ function HomePage() {
 						elit cursus, pellentesque dolor sed, fringilla augue. Donec bibendum
 						nibh et auctor eleifend.
 					</CardText>
-					<Button>Why</Button>
+					<Link to="/why">
+						<Button>Why</Button>
+					</Link>
 				</CardBody>
 			</Card>
 			<Card>
@@ -48,7 +53,9 @@ function HomePage() {
 						elit cursus, pellentesque dolor sed, fringilla augue. Donec bibendum
 						nibh et auctor eleifend.
 					</CardText>
-					<Button>Reviews</Button>
+					<Link to="/reviews">
+						<Button>Reviews</Button>
+					</Link>
 				</CardBody>
 			</Card>
 		</CardGroup>
