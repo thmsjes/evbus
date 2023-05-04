@@ -1,20 +1,5 @@
-//import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Logo from '../images/logo.png';
-
-// import {
-// 	Card,
-// 	Button,
-// 	CardImg,
-// 	CardTitle,
-// 	CardText,
-// 	CardColumns,
-// 	CardSubtitle,
-// 	CardBody,
-// 	CardGroup,
-// } from 'reactstrap';
-
 import '../css/loginPage.css';
-import { Container } from 'reactstrap';
 
 function Login() {
 	return (
