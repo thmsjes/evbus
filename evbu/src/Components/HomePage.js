@@ -12,7 +12,7 @@ import {
 } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/homePage.css';
-import AboutPage from '../Components/About';
+
 function HomePage() {
 	return (
 		<CardGroup>

@@ -1,11 +1,11 @@
-import aboutImage from '../images/schoolBus1.jpg';
+import '../css/studyPage.css';
 
-function AboutPage() {
+function StudyPage() {
 	return (
-		<div className="aboutContainer">
-			<div className="aboutTitleBar">What is Cornice Technology</div>
-			<div className="aboutContent">
-				<h1>LORUM IPSUM</h1>
+		<div className="studyContainer">
+			<div className="studyTitleBar">Ready to dig in?</div>
+			<div className="studyContent">
+				<h1>Study</h1>
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
 					exercitationem repudiandae odio reiciendis ullam dolorum autem tempore
@@ -19,10 +19,10 @@ function AboutPage() {
 					obcaecati ut. Quas, praesentium temporibus!
 				</p>
 			</div>
-			<div className="aboutImage">
-				<img src={aboutImage} alt="" />
-			</div>
+			<a href="/contactUs" rel="noopener noreferrer">
+				<button className="contactUsButton">Request a Quote</button>
+			</a>
 		</div>
 	);
 }
-export default AboutPage;
+export default StudyPage;
