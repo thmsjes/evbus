@@ -1,0 +1,43 @@
+.aboutContainer{
+    
+    
+    position:fixed;
+   height: 100%;
+   width: 100%;
+}
+.aboutContainer::before{
+    background-image: url('../images/schoolBus4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 80%;
+    content:"";
+    opacity:0.35;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    width:auto;
+    height:auto;
+    z-index:-3;
+}
+.aboutTitleBar{
+    color: black;
+}
+.aboutContent p{
+    color: black;
+}
+.contactUsButton{
+    margin: 5px;
+   color: whitesmoke;
+    border-radius: 5px;
+    border-width: 2px;
+    background-color: rgb(16, 168, 16);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    
+    
+}
+.contactUsButton:hover{
+    font-weight: bolder;
+   
+}

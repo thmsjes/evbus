@@ -21,7 +21,7 @@ function Login() {
 					<button className="loginButton">Login</button>
 					<p className="registerLing">
 						Not Registered?
-						<a classname="registerLink" href="/register">
+						<a className="registerLink" href="/register">
 							Create an Account.
 						</a>
 					</p>
